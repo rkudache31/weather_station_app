@@ -1,0 +1,234 @@
+.headerWrap {
+  height: 60px;
+  box-shadow: 0 0 10px 0px #eaeaea;
+  background: #fff;
+  position: fixed !important;
+  z-index: 9999;
+  top: 0;
+}
+.topRight {
+  position: absolute !important;
+  top: 10px;
+  right: 0;
+}
+.dislplay-inline {
+  display: flex;
+  list-style: none;
+}
+.card {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+.card h5 {
+  padding: 15px;
+  background: #edf1ff;
+  border-radius: 4px 4px 0 0;
+}
+
+.thumbBox {
+  background: #000;
+  padding: 20px 0 0;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 35px;
+  float: left;
+  width: 100%;
+}
+.thumbBox h4,
+.thumbBox p {
+  padding: 0px 15px;
+}
+.thumbBox span {
+  color: #fff;
+  float: right;
+}
+/* #thumb:nth-child(1) .thumbBox {
+  background: #000 !important;
+  border-color: #000;
+}
+#thumb:nth-child(2) .thumbBox {
+  background-color: #000 !important;
+  border-color: #000;
+}
+#thumb:nth-child(3) .thumbBox {
+  background-color: #000 !important;
+  border-color: #000;
+}
+#thumb:nth-child(4) .thumbBox {
+  background-color: #000 !important;
+  border-color: #000;
+} */
+
+.thumbBox .sudData {
+  color: #fff;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  float: left;
+  padding: 10px 15px;
+}
+.addUser .card form {
+  padding: 15px 30px;
+}
+
+.chart-data {
+  padding: 15px 30px;
+}
+
+.btns {
+  border: none;
+  font-size: 2rem;
+  font-family: inherit;
+  cursor: pointer;
+  color: #fff;
+  background: rgb(77 77 77);
+}
+.editbtn {
+  float: right;
+}
+.deletebtn {
+  float: left;
+}
+.App {
+  display: flex;
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  background: #7386d5;
+  color: #fff;
+  margin-left: -250px;
+  transition: all 0.5s;
+}
+
+.sidebar.is-open {
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+.sidebar-header {
+  background: #6d7fcc;
+}
+
+.sidebar-header h3 {
+  color: #fff;
+  padding: 1em;
+}
+
+.sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+.menu-open {
+  background: #6d7fcc;
+}
+
+.icon-right {
+  padding-right: 10px;
+}
+.nav-links:hover {
+  background: #8a9de8;
+}
+
+.items-menu {
+  color: #fff;
+  background: #6d7fcc;
+}
+
+li a.dropdown-toggle::after {
+  display: inline-flex;
+  position: relative;
+  left: 60%;
+  top: 10%;
+}
+
+.sidebar-header > span {
+  position: relative;
+  float: right;
+  margin: 0.5em;
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
+.side-menu {
+  height: calc(100vh - 130px);
+  overflow-y: scroll;
+}
+
+.side-menu::-webkit-scrollbar {
+  width: 10px;
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+  background: #5466b3;
+  border-radius: 3px;
+}
+
+.side-menu::-webkit-scrollbar-thumb:hover {
+  background: #3a4c99;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.content {
+  padding: 20px;
+  margin-left: 0;
+  height: 100vh;
+}
+
+.card {
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+.card h5 {
+  padding: 15px;
+  background: #edf1ff;
+  border-radius: 4px 4px 0 0;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+
+  .content.is-open {
+    margin-left: 100%;
+  }
+
+  .sidebar.is-open {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    transition: all 0.5s, height 0s;
+  }
+
+  .sidebar.is-open > .sidebar-header span {
+    display: unset;
+  }
+
+  li a.dropdown-toggle::after {
+    display: inline-block;
+    position: relative;
+    left: 68%;
+  }
+}
