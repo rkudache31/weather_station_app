@@ -21,7 +21,7 @@ function Verify() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "http://20.207.204.225:3001/api/v1/users/verifyOTP",
+        "http://${env.BACK_HOST}:3001/api/v1/users/verifyOTP",
         {
           method: "POST",
           headers: {

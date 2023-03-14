@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: back-deployment
+spec:
+  replicas: 1
+  selector:
+   matchLabels:
+    component: back
+  template:
+   metadata:
+     labels:
+      component: back
+   spec:
+    containers:
+       - name: backapp
+         image: rkudache31/weather_backend
+         ports:
+         - containerPort: 3001

@@ -1,5 +1,8 @@
 import { useState } from "react";
+//import { env.BACK_HOST } from "../config";
 import NoteContext from "./nodesContext";
+import env  from "react-dotenv";
+//import ( keys ) from "../../key.js";
 import { getTokenFromLocalStorage } from "./../components/lib/common";
 const NodesState = (props) => {
   const notesInitial = [];
@@ -12,13 +15,14 @@ const NodesState = (props) => {
   const [nodeDate, setNodesDate] = useState(nodesGetdate);
   const [userData, setUser] = useState(userDataArray);
   const [tempDelete, setTempDelete] = useState(setTempDeleteArray);
+//  const keys = require('./keys');
   // const [userId, setUserId] = useState("");
   // const [userUid, setUserUid] = useState("");
   // const [userName, setUserName] = useState("");
 
   const getUser = async () => {
     const token = getTokenFromLocalStorage();
-    const response = await fetch(`http://20.207.204.225:3001/api/v1/users`, {
+    const response = await fetch(`http://${env.BACK_HOST}:3001/api/v1/users`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -31,7 +35,7 @@ const NodesState = (props) => {
   };
   const getNodes = async () => {
     const token = getTokenFromLocalStorage();
-    const response = await fetch(`http://20.207.204.225:3001/api/v1/nodes`, {
+    const response = await fetch(`http://${env.BACK_HOST}:3001/api/v1/nodes`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -44,7 +48,7 @@ const NodesState = (props) => {
 
   const getNodesUser = async (id) => {
     const token = getTokenFromLocalStorage();
-    const response = await fetch(`http://20.207.204.225:3001/api/v1/nodes/${id}`, {
+    const response = await fetch(`http://${env.BACK_HOST}:3001/api/v1/nodes/${id}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -58,7 +62,7 @@ const NodesState = (props) => {
   const getNodesRestore = async () => {
     const token = getTokenFromLocalStorage();
     const response = await fetch(
-      `http://20.207.204.225:3001/api/v1/nodes/tempdelete`,
+      `http://${env.BACK_HOST}:3001/api/v1/nodes/tempdelete`,
       {
         method: "GET",
         headers: {
@@ -93,7 +97,7 @@ const NodesState = (props) => {
     rainhigh
   ) => {
     const token = getTokenFromLocalStorage();
-    const response = await fetch(`http://20.207.204.225:3001/api/v1/nodes`, {
+    const response = await fetch(`http://${env.BACK_HOST}:3001/api/v1/nodes`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -124,7 +128,7 @@ const NodesState = (props) => {
   const GetUidAndDate = async (uid, startDate, endDate) => {
     const token = getTokenFromLocalStorage();
     const response = await fetch(
-      `http://20.207.204.225:3001/api/v1/nodes/getDataByDate/?uid=${uid}&startDate=${startDate}&endDate=${endDate}`,
+      `http://${env.BACK_HOST}:3001/api/v1/nodes/getDataByDate/?uid=${uid}&startDate=${startDate}&endDate=${endDate}`,
       {
         method: "GET",
         headers: {
@@ -139,7 +143,7 @@ const NodesState = (props) => {
 
   const deleteNodes = async (id) => {
     const token = getTokenFromLocalStorage();
-    const response = await fetch(`http://20.207.204.225:3001/api/v1/nodes/${id}`, {
+    const response = await fetch(`http://${env.BACK_HOST}:3001/api/v1/nodes/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",
@@ -172,7 +176,7 @@ const NodesState = (props) => {
     rainhigh
   ) => {
     const token = getTokenFromLocalStorage();
-    const response = await fetch(`http://20.207.204.225:3001/api/v1/nodes/${id}`, {
+    const response = await fetch(`http://${env.BACK_HOST}:3001/api/v1/nodes/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -204,7 +208,7 @@ const NodesState = (props) => {
   const deleteTempNode = async (uid, user) => {
     const token = getTokenFromLocalStorage();
     const response = await fetch(
-      `http://20.207.204.225:3001/api/v1/nodes/tempdelete/${uid}`,
+      `http://${env.BACK_HOST}:3001/api/v1/nodes/tempdelete/${uid}`,
       {
         method: "PUT",
         headers: {
@@ -222,7 +226,7 @@ const NodesState = (props) => {
   const editNodesUser = async (uid, user) => {
     const token = getTokenFromLocalStorage();
     const response = await fetch(
-      `http://20.207.204.225:3001/api/v1/nodes/${uid}/restore`,
+      `http://${env.BACK_HOST}:3001/api/v1/nodes/${uid}/restore`,
       {
         method: "PUT",
         headers: {

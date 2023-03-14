@@ -9,6 +9,7 @@ WORKDIR /frontend
 
 # Installing dependencies
 COPY ./package.json /frontend
+RUN npm install dotenv
 RUN npm install
 
 # Copying all the files in our project

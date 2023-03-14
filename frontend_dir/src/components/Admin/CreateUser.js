@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { APP_ROUTES } from "../../utils/filepaths";
+import env  from "react-dotenv";
 import { getTokenFromLocalStorage } from "./../lib/common";
 import classNames from "classnames";
 import Container from "react-bootstrap/Container";
@@ -52,7 +53,7 @@ function CreateUser() {
         });
       } else {
         const response = await fetch(
-          "http://20.207.204.225:3001/api/v1/users/signup",
+          "http://${env.BACK_HOST}:3001/api/v1/users/signup",
           {
             method: "POST",
             headers: {

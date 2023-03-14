@@ -1,4 +1,4 @@
-const API_URL = "http://20.207.204.225:3001";
+const API_URL = "http://back-svc:3001";
 export const API_ROUTES = {
   SIGN_UP: `${API_URL}/api/v1/users/signup`,
   SIGN_IN: `${API_URL}/api/v1/users/login`,

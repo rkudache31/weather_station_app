@@ -1,11 +1,16 @@
 import "./style.css";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import env  from "react-dotenv";
 import { ToastContainer, toast } from "react-toastify";
+//import { backHost } from "../../config";
 import { storeTokenInLocalStorage } from "../lib/common";
 import { APP_ROUTES } from "../../utils/filepaths";
-
+//const backhost = process.env.BACK_HOST
+//const backapi = process.env.BACK_HOST;
 const Login = () => {
+  const backapi = process.env.REACT_APP_BACK_HOST;
+  console.log(backapi);	
   const navigate = useNavigate();
   const [passShow, setPassShow] = useState(false);
   const [inpval, setInpval] = useState({
@@ -60,10 +65,12 @@ const Login = () => {
           theme: "light",
         });
       } else {
+//	const backapi = process.env.development.REACT_APP_BACK_HOST;      
+//	console.log (backapi);      
         const response = await fetch(
-          "http://20.207.204.225:3001/api/v1/users/login",
+          `http://${backapi}:3001/api/v1/users/login`,
           {
-            method: "POSt",
+           method: "POST",
             headers: {
               "Content-Type": "application/json",
             },

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: front-deployment
+spec:
+  replicas: 1
+  selector:
+   matchLabels:
+    component: front
+  template:
+   metadata:
+     labels:
+      component: front
+   spec:
+    containers:
+       - name: frontapp
+         image: rkudache31/weather_front
+         ports:
+         - containerPort: 3000
+         env:
+           - name: BACK_HOST
+             value: back-svc
+           - name: BACK_PORT
+             value: '3001'
