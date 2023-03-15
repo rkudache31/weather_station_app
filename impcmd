@@ -1,0 +1,1000 @@
+  941  cd src/
+  942  ls
+  943  cd context/
+  944  ls
+  945  vi NodesState.js 
+  946  cd ..
+  947  cd context/
+  948  ls
+  949  cd ..
+  950  ls
+  951  cd components/
+  952  ls
+  953  cd Pages/
+  954  ls
+  955  vi Login.js 
+  956  cat Login.js
+  957  ls
+  958  cd ..
+  959  ls
+  960  cd context/
+  961  ls
+  962  vi NodesState.js 
+  963  cd ..
+  964  ll
+  965  cd components/
+  966  ls
+  967  cd Admin/
+  968  ls
+  969  vi CreateUser.js 
+  970  ls -a
+  971  rm .CreateUser.js.swp
+  972  vi CreateUser.js
+  973  ls
+  974  vi Verify.js
+  975  cd ..
+  976  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+  977  ls
+  978  docker  push rkudache31/weather_front
+  979  kubectl  logs -f back-deployment-79796b667-pjjgz --namespace ingress-ngin
+  980  kubectl  logs -f back-deployment-79796b667-pjjgz --namespace ingress-nginx
+  981  grep -l WebSocket *
+  982  grep -l "WebSocket" *
+  983  ls
+  984  cd src/
+  985  ls
+  986  grep -l "WebSocket" *
+  987  locate "WebSocket"
+  988  apt install mlocate
+  989  locate "WebSocket"
+  990  locate "WebSocket" .
+  991  locate "WebSocket"
+  992  cd ..
+  993  ls
+  994  cd src/
+  995  ls
+  996  cd Auth/
+  997  ls
+  998  cat RoleAccess.js
+  999  cd ..
+ 1000  cd components
+ 1001  ls
+ 1002  cd Pages/
+ 1003  cd ..
+ 1004  la
+ 1005  cat config.js
+ 1006  cd components/
+ 1007  ls
+ 1008  cd Pages/
+ 1009  ls
+ 1010  vi Login.js 
+ 1011  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1012  cd ..
+ 1013  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1014  docker  push rkudache31/weather_front
+ 1015  vi src/components/Pages/Login.js 
+ 1016  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1017  docker  push rkudache31/weather_front
+ 1018  vi src/components/Pages/Login.js 
+ 1019  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1020  docker  push rkudache31/weather_front
+ 1021  cd ..
+ 1022  ls
+ 1023  git add .
+ 1024  cd frontend_dir/
+ 1025  ls
+ 1026  cd src/
+ 1027  ls
+ 1028  cd components/
+ 1029  ls
+ 1030  cd ..
+ 1031  ls -lrt
+ 1032  cd src/
+ 1033  ls -lrt
+ 1034  vi .env
+ 1035  cd ..
+ 1036  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1037  docker  push rkudache31/weather_front
+ 1038  vi src/components/Pages/Login.js 
+ 1039  clear
+ 1040  ls
+ 1041  vi package.json 
+ 1042  ls
+ 1043  ls -la
+ 1044  mv .env .env.devlopment
+ 1045  vi package.json 
+ 1046  vi src/components/Pages/Login.js 
+ 1047  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1048  docker  push rkudache31/weather_front
+ 1049  vi package.json 
+ 1050  ls -lrt
+ 1051  ls -la
+ 1052  mv .env.devlopment .env.development
+ 1053  cat .env.development 
+ 1054  vi .env.development 
+ 1055  vi package.json 
+ 1056  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1057  docker  push rkudache31/weather_front
+ 1058  vi package.json 
+ 1059  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1060  docker  push rkudache31/weather_front
+ 1061  vi .env.development 
+ 1062  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1063  docker  push rkudache31/weather_front
+ 1064  vi src/components/Pages/Login.js 
+ 1065  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1066  vi src/components/Pages/Login.js 
+ 1067  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1068  docker  push rkudache31/weather_front
+ 1069  vi src/components/Pages/Login.js 
+ 1070  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1071  docker  push rkudache31/weather_front
+ 1072  vi src/components/Pages/Login.js 
+ 1073  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1074  docker  push rkudache31/weather_front
+ 1075  ls
+ 1076  cd wather_report_dir/
+ 1077  ls
+ 1078  cd weather_station_app/
+ 1079  ls
+ 1080  cd k8s/
+ 1081  ls
+ 1082  kubectl apply -f .  --namespace ingress-nginx
+ 1083  kubectl get pods  --namespace ingress-nginx
+ 1084  kubectl get service  --namespace ingress-nginx
+ 1085  kubectl exec -it front-deployment-64c97b88f7-2s85r --namespace ingress-nginx -- sh
+ 1086  kubectl exec -it front-deployment-64c97b88f7-fmjkk --namespace ingress-nginx -- sh
+ 1087  ls
+ 1088  cat front-service.yml
+ 1089  cat back-service.yml
+ 1090  kubectl delete  deployment.apps/front-deployment  --namespace ingress-nginx
+ 1091  kubectl apply -f .  --namespace ingress-nginx
+ 1092  kubectl delete  deployment.apps/front-deployment  --namespace ingress-nginx
+ 1093  kubectl apply -f .  --namespace ingress-nginx
+ 1094  kubectl delete  deployment.apps/front-deployment  --namespace ingress-nginx
+ 1095  kubectl apply -f .  --namespace ingress-nginx
+ 1096  kubectl exec -it front-deployment-64c97b88f7-fmjkk --namespace ingress-nginx -- sh
+ 1097  kubectl get service  --namespace ingress-nginx
+ 1098  kubectl get pod  --namespace ingress-nginx
+ 1099  kubectl exec -it front-deployment-64c97b88f7-8dzxv --namespace ingress-nginx -- sh
+ 1100  ls
+ 1101  vi ingress.yaml
+ 1102  kubectl exec -it ingress-nginx-controller-6bf7bc7f94-vwllh --namespace ingress-nginx -- sh
+ 1103  vi ingress.yaml 
+ 1104  kubectl get deployment  --namespace ingress-nginx
+ 1105  kubectl delete  ingress-nginx-controller --namespace ingress-nginx
+ 1106  kubectl get deployment  --namespace ingress-nginx
+ 1107  kubectl delete  deployment.apps/ingress-nginx-controller --namespace ingress-nginx
+ 1108  kubectl apply -f .  --namespace ingress-nginx
+ 1109  vi ingress.yaml 
+ 1110  kubectl apply -f .  --namespace ingress-nginx
+ 1111  vi ingress.yaml 
+ 1112  kubectl apply -f .  --namespace ingress-nginx
+ 1113  vi ingress.yaml 
+ 1114  kubectl apply -f .  --namespace ingress-nginx
+ 1115  cat back-service.yml 
+ 1116  vi ingress.yaml 
+ 1117  kubectl apply -f .  --namespace ingress-nginx
+ 1118  vi ingress.yaml 
+ 1119  kubectl apply -f .  --namespace ingress-nginx
+ 1120  kubectl get service  --namespace ingress-nginx
+ 1121  vi ingress.yaml 
+ 1122  kubectl apply -f .  --namespace ingress-nginx
+ 1123  history gerp apply
+ 1124  history |gerp apply
+ 1125  history |grep apply
+ 1126  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1127  kubectl apply -f .  --namespace ingress-nginx
+ 1128  vi ingress.yaml 
+ 1129  kubectl apply -f .  --namespace ingress-nginx
+ 1130  vi ingress.yaml 
+ 1131  kubectl apply -f .  --namespace ingress-nginx
+ 1132  ls
+ 1133  cat ingress.yaml
+ 1134  kubectl get pods --namespace ingress-nginx
+ 1135  kubectl logs back-deployment-79796b667-pjjgz --namespace ingress-nginx
+ 1136  kubectl -f logs back-deployment-79796b667-pjjgz --namespace ingress-nginx
+ 1137  kubectl logs --help
+ 1138  kubectl  logs -f back-deployment-79796b667-pjjgz --namespace ingress-nginx
+ 1139  vi ingress.yaml 
+ 1140  kubectl apply -f .  --namespace ingress-nginx
+ 1141  kubectl -f logs back-deployment-79796b667-pjjgz --namespace ingress-nginx
+ 1142  kubectl  logs -f back-deployment-79796b667-pjjgz --namespace ingress-nginx
+ 1143  vi ingress.yaml 
+ 1144  kubectl apply -f .  --namespace ingress-nginx
+ 1145  kubectl  logs -f back-deployment-79796b667-pjjgz --namespace ingress-nginx
+ 1146  kubectl  logs -f ingress-nginx-controller-6bf7bc7f94-5lbc4 --namespace ingress-nginx 
+ 1147  kubectl get pods --namespace ingress-nginx
+ 1148  kubectl  logs -f front-deployment-64c97b88f7-8dzxv --namespace ingress-nginx 
+ 1149  kubectl get pods --namespace ingress-nginx
+ 1150  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1151  kubectl apply -f .  --namespace ingress-nginx
+ 1152  kubectl get pods --namespace ingress-nginx
+ 1153  kubectl  logs -f front-deployment-64c97b88f7-6ksgq  --namespace ingress-nginx 
+ 1154  kubectl get pods --namespace ingress-nginx
+ 1155  kubectl  logs -f ingress-nginx-controller-6bf7bc7f94-5lbc4  --namespace ingress-nginx 
+ 1156  ls
+ 1157  vi ingress.yaml 
+ 1158  kubectl apply -f .  --namespace ingress-nginx
+ 1159  kubectl  logs -f ingress-nginx-controller-6bf7bc7f94-5lbc4  --namespace ingress-nginx 
+ 1160  cat ingress.yaml 
+ 1161  kubectl get pods --namespace ingress-nginx
+ 1162  kubectl  logs -f front-deployment-64c97b88f7-6ksgq  --namespace ingress-nginx 
+ 1163  ls
+ 1164  cat back-service.yml 
+ 1165  cat front-service.yml 
+ 1166  vi back-service.yml
+ 1167  kubectl apply -f .  --namespace ingress-nginx
+ 1168  kubectl  logs -f front-deployment-64c97b88f7-6ksgq  --namespace ingress-nginx 
+ 1169  kubectl get pods --namespace ingress-nginx
+ 1170  kubectl  logs -f ingress-nginx-controller-6bf7bc7f94-5lbc4  --namespace ingress-nginx 
+ 1171  kubectl get service --namespace ingress-nginx
+ 1172  kubectl  exec -it front-deployment-64c97b88f7-6ksgq  --namespace ingress-nginx -sh 
+ 1173  kubectl get pod --namespace ingress-nginx
+ 1174  kubectl exec -it front-deployment-64c97b88f7-6ksgq --namespace ingress-nginx -- sh
+ 1175  ls
+ 1176  ls -lrt
+ 1177  ls
+ 1178  vi back-service.yml 
+ 1179  cat front-service.yml
+ 1180  cat back-service.yml
+ 1181  cat backend_deployment.yml
+ 1182  cat frontend_deployment.yml
+ 1183  ls
+ 1184  vi back-service.yml 
+ 1185  kubectl  logs -f ingress-nginx-controller-6bf7bc7f94-5lbc4  --namespace ingress-nginx 
+ 1186  kubectl get pod --namespace ingress-nginx
+ 1187  kubectl get service  --namespace ingress-nginx
+ 1188  ls
+ 1189  cat front-service.yml
+ 1190  cat back-service.yml
+ 1191  cat backend_deployment.yml
+ 1192  cat frontend_deployment.yml
+ 1193  cat ingress.yaml
+ 1194  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1195  kubectl apply -f .  --namespace ingress-nginx
+ 1196  kubectl exec -it front-deployment-64c97b88f7-6ksgq --namespace ingress-nginx -- sh
+ 1197  kubectl get pod  --namespace ingress-nginx
+ 1198  kubectl exec -it front-deployment-64c97b88f7-ss7df --namespace ingress-nginx -- sh
+ 1199  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1200  kubectl apply -f .  --namespace ingress-nginx
+ 1201  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1202  kubectl apply -f .  --namespace ingress-nginx
+ 1203  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1204  kubectl apply -f .  --namespace ingress-nginx
+ 1205  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1206  kubectl apply -f .  --namespace ingress-nginx
+ 1207  kubectl get pod  --namespace ingress-nginx
+ 1208  kubectl apply -f .  --namespace ingress-nginx
+ 1209  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1210  kubectl apply -f .  --namespace ingress-nginx
+ 1211  kubectl get pod  --namespace ingress-nginx
+ 1212  kubectl logs front-deployment-64c97b88f7-gzxl8 --namespace ingress-nginx
+ 1213  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1214  kubectl apply -f .  --namespace ingress-nginx
+ 1215  kubectl get pod  --namespace ingress-nginx
+ 1216  kubectl logs front-deployment-64c97b88f7-tw5wz --namespace ingress-nginx
+ 1217  ls
+ 1218  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1219  kubectl apply -f .  --namespace ingress-nginx
+ 1220  kubectl get pod  --namespace ingress-nginx
+ 1221  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1222  kubectl apply -f .  --namespace ingress-nginx
+ 1223  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1224  kubectl apply -f .  --namespace ingress-nginx
+ 1225  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1226  kubectl apply -f .  --namespace ingress-nginx
+ 1227  kubectl get pod  --namespace ingress-nginx
+ 1228  kubectl delete  deployment.apps/front-deployment --namespace ingress-nginx
+ 1229  kubectl apply -f .  --namespace ingress-nginx
+ 1230  kubectl get pod  --namespace ingress-nginx
+ 1231  kubectl exec -it front-deployment-64c97b88f7-mbcg6 --namespace ingress-nginx -- sh
+ 1232  kubectl get services  --namespace ingress-nginx
+ 1233  kubectl delete -f services.apps/back-svc --namespace ingress-nginx
+ 1234  kubectl delete -f back-svc --namespace ingress-nginx
+ 1235  kubectl delete -f . --namespace ingress-nginx
+ 1236  kubectl apply -f .  --namespace ingress-nginx
+ 1237  history |grep apply
+ 1238  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1239  kubectl apply -f .  --namespace ingress-nginx
+ 1240  kubectl get services  --namespace ingress-nginx
+ 1241  vi ingress.yaml 
+ 1242  ls
+ 1243  cat front-service.yml
+ 1244  cat back-service.yml
+ 1245  cd wather_report_dir/weather_station_app/
+ 1246  ls
+ 1247  cd k8s/
+ 1248  kubectl apply -f .  --namespace ingress-nginx
+ 1249  kubectl get serv -namespace ingress-nginx
+ 1250  kubectl get services -namespace ingress-nginx
+ 1251  kubectl apply -f .  --namespace ingress-nginx
+ 1252  history | grep kubectl 
+ 1253  apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1254  kapply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1255  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1256  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --namespace ingress-nginx
+ 1257  kubectl get services --namespace ingress-nginx
+ 1258  kubectl get pods --namespace ingress-nginx
+ 1259  kubectl delete -f  --namespace ingress-nginx
+ 1260  kubectl delete -f . --namespace ingress-nginx
+ 1261  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --namespace ingress-nginx
+ 1262  kubectl apply -f . --namespace ingress-nginx
+ 1263  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1264  kubectl apply -f . --namespace ingress-nginx
+ 1265  kubectl delete -f . --namespace ingress-nginx
+ 1266  kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1267  kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --namespace ingress-nginx
+ 1268  kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1269  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --
+ 1270  kubectl apply -f . --namespace ingress-nginx
+ 1271  vi ingress.yaml 
+ 1272  kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1273  kubectl delete -f . --namespace ingress-nginx
+ 1274  kubectl delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1275  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1276  kubectl apply -f . --namespace ingress-nginx
+ 1277  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1278  kubectl apply -f . --namespace ingress-nginx
+ 1279  kubectl get service  --namespace ingress-nginx
+ 1280  kubectl get pod  --namespace ingress-nginx
+ 1281  kubectl delete ingress-nginx-admission-patch-s98d2
+ 1282  kubectl delete ingress-nginx
+ 1283  kubectl delete ingress-nginx-admission
+ 1284  kubectl delete ingress-nginx-admission*
+ 1285  kubectl delete ingress-nginx-controller
+ 1286  history |grep delete
+ 1287  ls
+ 1288  cd wather_report_dir//weather_station_app/
+ 1289  cd k8s/
+ 1290  -nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1291  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1292  kubectl apply -f .  --namespace ingress-nginx
+ 1293  kubectl get services
+ 1294  kubectl get services --namespace
+ 1295  kubectl get services --namespace ingress-nginx
+ 1296  kubectl delete deployment.apps/ingress-nginx-controller-admission
+ 1297  kubectl get pods  --namespace ingress-nginx
+ 1298  kubectl apply -f .  --namespace ingress-nginx
+ 1299  vi ingress.yaml 
+ 1300  kubectl apply -f .  --namespace ingress-nginx
+ 1301  vi ingress.yaml 
+ 1302  kubectl get pods --namespace ingress-nginx
+ 1303  kubectl logs back-deployment-79796b667-tccrj --namespace ingress-nginx
+ 1304  kubectl get service --namespace ingress-nginx
+ 1305  kubectl logs back-svc --namespace ingress-nginx
+ 1306  kubectl logs services back-svc --namespace ingress-nginx
+ 1307  kubectl  services back-svc --namespace ingress-nginx
+ 1308  kubectl  get services back-svc --namespace ingress-nginx
+ 1309  kubectl logs ingress-nginx-controller-6bf7bc7f94-skgmn ingress-nginx
+ 1310  kubectl logs ingress-nginx-controller-6bf7bc7f94-skgmn  --namespace ingress-nginx
+ 1311  kubectl logs -f ingress-nginx-controller-6bf7bc7f94-skgmn  --namespace ingress-nginx
+ 1312  vi ingress.yaml 
+ 1313  kubectl apply -f .  --namespace ingress-nginx
+ 1314  vi ingress.yaml 
+ 1315  kubectl apply -f .  --namespace ingress-nginx
+ 1316  vi ingress.yaml 
+ 1317  kubectl apply -f .  --namespace ingress-nginx
+ 1318  vi ingress.yaml 
+ 1319  kubectl apply -f .  --namespace ingress-nginx
+ 1320  vi ingress.yaml 
+ 1321  kubectl apply -f .  --namespace ingress-nginx
+ 1322  vi ingress.yaml 
+ 1323  kubectl apply -f .  --namespace ingress-nginx
+ 1324  vi ingress.yaml 
+ 1325  kubectl apply -f .  --namespace ingress-nginx
+ 1326  vi ingress.yaml 
+ 1327  kubectl apply -f .  --namespace ingress-nginx
+ 1328  kubectl get pods
+ 1329  kubectl get pods --namespace ingress-nginx
+ 1330  kubectl delete  -f .  --namespace ingress-nginx
+ 1331  kubectl delete ingress-nginx-controller-6bf7bc7f94-skgmn
+ 1332  kubectl delete --help
+ 1333  kubectl get pods --namespace ingress-nginx
+ 1334  kubectl delete -l ingress-nginx-controller-6bf7bc7f94-skgmn
+ 1335  kubectl delete -l ingress-nginx-controller-6bf7bc7f94-skgmn --namespace ingress-nginx
+ 1336  kubectl delete service  ingress-nginx-controller-6bf7bc7f94-skgmn --namespace ingress-nginx
+ 1337  kubectl delete pod  ingress-nginx-controller-6bf7bc7f94-skgmn --namespace ingress-nginx
+ 1338  kubectl delete  -f .  --namespace ingress-nginx
+ 1339  kubectl apply  -f .  --namespace ingress-nginx
+ 1340  kubectl get pods --namespace ingress-nginx
+ 1341  kubectl get service --namespace ingress-nginx
+ 1342  vi back-service.yml 
+ 1343  kubectl apply  -f .  --namespace ingress-nginx
+ 1344  cd ..
+ 1345  cd back_server/
+ 1346  ls
+ 1347  vi Dockerfile 
+ 1348  cd ..
+ 1349  cd frontend_dir/
+ 1350  cat Dockerfile.dev 
+ 1351  cd ../k8s/
+ 1352  cat frontend_deployment.yml 
+ 1353  vi backend_deployment.yml 
+ 1354  cat front-service.yml 
+ 1355  cat back-service.yml 
+ 1356  vi back-service.yml 
+ 1357  vi ingress.yaml 
+ 1358  kubectl apply  -f .  --namespace ingress-nginx
+ 1359  history |grep delete 
+ 1360  history |grep apply
+ 1361  kubectl delete https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1362  kubectl -f delete https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1363  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1364  kubectl  delete -f . 
+ 1365  kubectl  delete -f .  --namespace ingress-nginx
+ 1366  kubectl  apply  -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml  --namespace ingress-nginx
+ 1367  kubectl  apply  -f .  --namespace ingress-nginx
+ 1368  kubectl get service --namespace ingress-nginx  
+ 1369  cat ingress.yaml 
+ 1370  cat backend_deployment.yml 
+ 1371  vi back-service.yml 
+ 1372  cat back-service.yml 
+ 1373  vi ingress.yaml 
+ 1374  kubectl  apply  -f .  --namespace ingress-nginx
+ 1375  kubectl get service --namespace ingress-nginx  
+ 1376  vi ingress.yaml 
+ 1377  kubectl  apply  -f .  --namespace ingress-nginx
+ 1378  vi ingress.yaml 
+ 1379  kubectl  apply  -f .  --namespace ingress-nginx
+ 1380  vi ingress.yaml 
+ 1381  kubectl  apply  -f .  --namespace ingress-nginx
+ 1382  cat ingress.yaml 
+ 1383  ls
+ 1384  kubectl get servics --namespace ingress-nginx
+ 1385  kubectl get service --namespace ingress-nginx
+ 1386  vi back-service.yml 
+ 1387  kubectl  apply  -f .  --namespace ingress-nginx
+ 1388  kubectl get service --namespace ingress-nginx
+ 1389  ls
+ 1390  cat front-service.yml
+ 1391  vi back-service.yml 
+ 1392  kubectl  apply  -f .  --namespace ingress-nginx
+ 1393  kubectl get service --namespace ingress-nginx
+ 1394  cat back-service.yml 
+ 1395  kubectl get networkpolicies -A
+ 1396  kubectl describe services back-svc --namespace ingress-nginx
+ 1397  kubectl describe services front-svc --namespace ingress-nginx
+ 1398  kubectl get pods -o wide --namespace ingress-nginx
+ 1399  kubectl get endpoints --namespace ingress-nginx
+ 1400  kubectl top nodes
+ 1401  kubectl describe pod back-deployment-79796b667-sqq5h
+ 1402  kubectl describe pod back-deployment-79796b667-sqq5h --namespace ingress-nginx
+ 1403  kubectl logs back-deployment-79796b667-sqq5h --namespace ingress-nginx
+ 1404  kubectl logs services back-svc  --namespace ingress-nginx
+ 1405  kubectl exec -it  front-deployment-64c97b88f7-n4j2p  --namespace ingress-nginx -sh
+ 1406  history |grep exec
+ 1407  kubectl exec -it front-deployment-64c97b88f7-n4j2p --namespace ingress-nginx --sh
+ 1408  kubectl get pods --namespace ingress-nginx
+ 1409  kubectl exec -it front-deployment-64c97b88f7-n4j2p --namespace ingress-nginx --sh
+ 1410  kubectl exec -it front-deployment-64c97b88f7-n4j2p --namespace ingress-nginx 
+ 1411  kubectl get pods --namespace ingress-nginx
+ 1412  kubectl exec -it front-deployment-64c97b88f7-n4j2p --namespace ingress-nginx 
+ 1413  kubectl exec -it front-deployment-64c97b88f7-n4j2p --namespace ingress-nginx
+ 1414  kubectl get pods 
+ 1415  kubectl get pods  --namespace ingress-nginx
+ 1416  kubectl exec -it front-deployment-64c97b88f7-n4j2p --namespace ingress-nginx -- sh
+ 1417  cd ..
+ 1418  ls
+ 1419  mkdir testk8s
+ 1420  cd testk8s/
+ 1421  ls
+ 1422  vi app1.yml
+ 1423  vi app2.yml
+ 1424  kubectl apply -f apiVersion: apps/v1
+ 1425  kind: Deployment
+ 1426  metadata:
+ 1427  spec:
+ 1428  ---
+ 1429  apiVersion: v1
+ 1430  kind: Service
+ 1431  metadata:
+ 1432  spec:
+ 1433  vi ingress.yml
+ 1434  kubectl apply -f app1.yml --namespace ingress-nginx
+ 1435  kubectl apply -f app2.yml --namespace ingress-nginx
+ 1436  kubectl apply -f ingress.yml --namespace ingress-nginx
+ 1437  kubectl get service --namespace ingress-nginx
+ 1438  ls
+ 1439  cd wather_report_dir/
+ 1440  cd weather_station_app/
+ 1441  ls
+ 1442  cd wather_report_dir/
+ 1443  cd weather_station_app/
+ 1444  ls
+ 1445  cd back_server/
+ 1446  ls
+ 1447  ls 
+ 1448  cd wather_report_dir/
+ 1449  ls
+ 1450  cd weather_station_app/
+ 1451  ls
+ 1452  cd k8s/
+ 1453  ls
+ 1454  cat ingress.yaml 
+ 1455  vi ingress.yaml 
+ 1456  kubectl get pods
+ 1457  kubectl get pods --namespace ingress-nginx
+ 1458  service/back-svc unchanged
+ 1459  kubectl get pods --namespace ingress-nginx
+ 1460  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-kbztj --namespace ingress-nginx
+ 1461  kubectl get pods --namespace ingress-nginx
+ 1462  ls
+ 1463  cat ingress.yaml 
+ 1464  vi ingress.yaml 
+ 1465  kubectl get pods --namespace ingress-nginx
+ 1466  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-h8gm8 --namespace ingress-nginx
+ 1467  kubectl get pods --namespace ingress-nginx
+ 1468  vi ingress.yaml 
+ 1469  kubectl get pods --namespace ingress-nginx
+ 1470  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-n8jj8 --namespace ingress-nginx
+ 1471  kubectl get services --namespace ingress-nginx
+ 1472  vi front-service.yml 
+ 1473  ls
+ 1474  vi back-service.yml
+ 1475  ls
+ 1476  vi back-service.yml 
+ 1477  vi ingress.yaml 
+ 1478  vi front-service.yml 
+ 1479  ls
+ 1480  kubectl get pods
+ 1481  kubectl get pods --namespace ingress-nginx
+ 1482  kubectl delete pod ingress-nginx-controller-6bf7bc7f94-vqccw --namespace ingress-nginx
+ 1483  kubectl apply -f . --namespace ingress-nginx
+ 1484  kubectl get services --namespace ingress-nginx
+ 1485  kubectl delete -f .  --namespace ingress-nginx
+ 1486  kubectl apply -f . --namespace ingress-nginx
+ 1487  vi ingress.yaml 
+ 1488  kubectl get pods --namespace ingress-nginx
+ 1489  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-nl6s6 --namespace ingress-nginx
+ 1490  kubectl get pods --namespace ingress-nginx
+ 1491  vi ingress.yaml 
+ 1492  ls
+ 1493  cat front-service.yml 
+ 1494  vi ingress.yaml 
+ 1495  kubectl apply -f . --namespace ingress-nginx
+ 1496  kubectl get pods --namespace ingress-nginx
+ 1497  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-t9f4k
+ 1498  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-t9f4k  --namespace ingress-nginx
+ 1499  kubectl get pods --namespace ingress-nginx
+ 1500  kubectl get services --namespace ingress-nginx
+ 1501  vi ingress.yaml 
+ 1502  kubectl delete -f . --namespace ingress-nginx
+ 1503  kubectl get pods --namespace ingress-nginx
+ 1504  kubectl delete -f . --namespace ingress-nginx
+ 1505  vi ingress.yaml 
+ 1506  ls
+ 1507  kubectl  delete pod . ingress-nginx-controller-6bf7bc7f94-xhsxj --namespace ingress-nginx
+ 1508  kubectl  delete pod  ingress-nginx-controller-6bf7bc7f94-xhsxj --namespace ingress-nginx
+ 1509  kubectl delete -f . --namespace ingress-nginx
+ 1510  kubectl apply -f . --namespace ingress-nginx
+ 1511  kubectl get pods --namespace ingress-nginx
+ 1512  vi ingress.yaml 
+ 1513  kubectl delete -f . --namespace ingress-nginx
+ 1514  kubectl get pods --namespace ingress-nginx
+ 1515  kubectl delete  pod ingress-nginx-controller-6bf7bc7f94-6vwdb --namespace ingress-nginx
+ 1516  kubectl apply  -f . --namespace ingress-nginx
+ 1517  kubectl get pods --namespace ingress-nginx
+ 1518  cd wather_report_dir/
+ 1519  cd weather_station_app/
+ 1520  ls
+ 1521  cd k8s/
+ 1522  ls
+ 1523  kubectl get services
+ 1524  kubectl get services --namespace ingress-nginx
+ 1525  kubectl delete services ingress-nginx-controller-admission --namespace ingress-nginx
+ 1526  kubectl delete services ingress-nginx-controller --namespace ingress-nginx
+ 1527  kubectl get services --namespace ingress-nginx
+ 1528  history | grep kubectl apply
+ 1529  history | grep  apply
+ 1530  kubectl  apply  -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml  --namespace ingress-nginx
+ 1531  kubectl get services --namespace ingress-nginx
+ 1532  kubectl get pods --namespace ingress-nginx
+ 1533  vi ingress.yaml 
+ 1534  kubectl get pods --namespace ingress-nginx
+ 1535  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-h5lsh --namespace ingress-nginx
+ 1536  kubectl get pods --namespace ingress-nginx
+ 1537  kubectl get services
+ 1538  kubectl get services ingress-nginx
+ 1539  kubectl get services --namespace ingress-nginx
+ 1540  kubectl describe ingress-nginx-controller
+ 1541  kubectl describe ingress-nginx-controller-6bf7bc7f94-4fnmf
+ 1542  kubectl get pods --namespace ingress-nginx
+ 1543  kubectl describe pods ingress-nginx-controller-6bf7bc7f94-4fnmf
+ 1544  kubectl describe  ingress-nginx-controller-6bf7bc7f94-4fnmf
+ 1545  kubectl describe  --help
+ 1546  kubectl describe pods ingress-nginx-controller-6bf7bc7f94-4fnmf
+ 1547  kubectl describe pods 
+ 1548  kubectl describe pods --namespace ingress-nginx 
+ 1549  kubectl describe pods ingress-nginx-controller-6bf7bc7f94-4fnmf --namespace ingress-nginx 
+ 1550  clear
+ 1551  kubectl describe pods ingress-nginx-controller-6bf7bc7f94-4fnmf --namespace ingress-nginx 
+ 1552  kubectl get services 
+ 1553  kubectl get services --namespace ingress-nginx
+ 1554  kubectl describe services ingress-nginx-controller
+ 1555  kubectl describe  ingress-nginx-controller
+ 1556  kubectl describe services  ingress-nginx-controller
+ 1557  ls
+ 1558  vi frontend_deployment.yml 
+ 1559  las
+ 1560  ls
+ 1561  vi front-service.yml 
+ 1562  ls
+ 1563  cat ingress.yaml 
+ 1564  vi ingress.yaml 
+ 1565  kubectl get pods --namespaces  ingress-nginx-controller
+ 1566  kubectl get pods --namespace  ingress-nginx-controller
+ 1567  kubectl get pods --namespace  ingress-nginx
+ 1568  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-4fnmf --namespace  ingress-nginx
+ 1569  kubectl get pods --namespace  ingress-nginx
+ 1570  vi ingress.yaml 
+ 1571  kubectl get pods --namespace  ingress-nginx
+ 1572  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-42wdx --namespace  ingress-nginx
+ 1573  kubectl get pods --namespace  ingress-nginx
+ 1574  kubectl get servics
+ 1575  kubectl get services
+ 1576  kubectl get services --namespace  ingress-nginx
+ 1577  vi ingress.yaml 
+ 1578  kubectl get pods --namespace  ingress-nginx
+ 1579  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-zmpvn --namespace  ingress-nginx
+ 1580  kubectl get pods --namespace  ingress-nginx
+ 1581  kubectl get services --namespace  ingress-nginx
+ 1582  kubectl  apply  -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml  --namespace ingress-nginx
+ 1583  ls
+ 1584  cd wather_report_dir/
+ 1585  cd weather_station_app/
+ 1586  ls
+ 1587  kubectl get services
+ 1588  kubectl get services --namespaces ingress
+ 1589  kubectl get services --namespace  ingress-nginx
+ 1590  cd k8s/
+ 1591  ls
+ 1592  vi back-service.yml 
+ 1593  vi front-service.yml 
+ 1594  vi frontend_deployment.yml 
+ 1595  vi front-service.yml 
+ 1596  vi ingress.yaml 
+ 1597  kubectl get pod  --namespace  ingress-nginx
+ 1598  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-7v4bl
+ 1599  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-7v4bl --namespace  ingress-nginx
+ 1600  kubectl get services --namespace  ingress-nginx
+ 1601  vi ingress.yaml 
+ 1602  kubectl get pod  --namespace  ingress-nginx
+ 1603  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-fqccp --namespace  ingress-nginx
+ 1604  kubectl get services --namespace  ingress-nginx
+ 1605  vi ingress.yaml 
+ 1606  kubectl get pod  --namespace  ingress-nginx
+ 1607  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-t8m95  --namespace  ingress-nginx
+ 1608  kubectl get services --namespace  ingress-nginx
+ 1609  vi ingress.yaml 
+ 1610  kubectl get pods --namespace  ingress-nginx
+ 1611  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-b9f2n --namespace  ingress-nginx 
+ 1612  kubectl get pods --namespace  ingress-nginx
+ 1613  kubectl get services --namespace  ingress-nginx
+ 1614  vi ingress.yaml 
+ 1615  kubectl get pods --namespace  ingress-nginx
+ 1616  vi ingress.yaml 
+ 1617  kubectl get pods --namespace  ingress-nginx
+ 1618  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-ddvsw --namespace  ingress-nginx 
+ 1619  history |grep  exec
+ 1620  kubectl get pods --namespace ingress-nginx
+ 1621  kubectl delete pods ingress-nginx-controller-6bf7bc7f94-z7ltc --namespace  ingress-nginx 
+ 1622  kubectl get pods --namespace ingress-nginx
+ 1623  kubectl delete -f . --namespace ingress-nginx
+ 1624  kubectl get pods --namespace ingress-nginx
+ 1625  kubectl apply  -f . --namespace ingress-nginx
+ 1626  kubectl delete -f . --namespace ingress-nginx
+ 1627  history |grep  delete
+ 1628  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1629  kubectl  apply  -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --namespace  ingress-nginx
+ 1630  kubectl delete -f . --namespace ingress-nginx
+ 1631  kubectl apply  -f . --namespace ingress-nginx
+ 1632  kubectl get pods --namespace ingress-nginx
+ 1633  kubectl get services --namespace ingress-nginx
+ 1634  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --namespace ingress-nginx
+ 1635  kubectl delete -f . --namespace ingress-nginx
+ 1636  kubectl get services --namespace ingress-nginx
+ 1637  kubectl get pods --namespace ingress-nginx
+ 1638  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1639  kubectl  apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1640  kubectl get services --namespace ingress-nginx
+ 1641  kubectl apply -f . --namespace ingress-nginx
+ 1642  kubectl get services --namespace ingress-nginx
+ 1643  kubectl get pod --namespace ingress-nginx
+ 1644  ls
+ 1645  cd ..
+ 1646  ls
+ 1647  cd frontend_dir/
+ 1648  ls
+ 1649  cd public/
+ 1650  ls
+ 1651  vi index.html 
+ 1652  ls
+ 1653  vi index.html 
+ 1654  ls
+ 1655  kubectl get pods --namespace ingress-nginx
+ 1656  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1657  cd ..
+ 1658  cd k8s/
+ 1659  ls
+ 1660  kubectl get pods --namespace ingress-nginx
+ 1661  kubectl get services --namespace ingress-nginx
+ 1662  kubectl  apply  -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1663  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1664  kubectl  apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml --namespace ingress-nginx
+ 1665  kubectl get pod --namespace ingress-nginx
+ 1666  kubectl get pods --namespace ingress-nginx
+ 1667  kubectl get services --namespace ingress-nginx
+ 1668  kubectl apply -f . --namespace ingress-nginx
+ 1669  kubectl get pods --namespace ingress-nginx
+ 1670  kubectl get services --namespace ingress-nginx
+ 1671  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml 
+ 1672  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1673  helm upgrade --install ingress-nginx ingress-nginx --repo https://kubernetes.github.io/ingress-nginx --namespace ingress-nginx --create-namespace
+ 1674  kubectl get pods --namespace ingress-nginx
+ 1675  kubectl get service ingress-nginx-controller --namespace=ingress-nginx
+ 1676  vi ingress.yaml 
+ 1677  ls
+ 1678  kubectl apply -f frontend_deployment.yml --namespace ingress-nginx
+ 1679  kubectl apply -f front-service.yml --namespace ingress-nginx
+ 1680  kubectl apply -f backend_deployment.yml --namespace ingress-nginx
+ 1681  kubectl apply -f back-service.yml --namespace ingress-nginx
+ 1682  kubectl apply -f ingress.yaml --namespace ingress-nginx
+ 1683  kubectl get service ingress-nginx-controller --namespace=ingress-nginx
+ 1684  cd frontend_dir/public/
+ 1685  cat index.html 
+ 1686  cd ..
+ 1687  ls
+ 1688  kubectl get pods --namespace ingress-nginx
+ 1689  kubectl exec -it ingress-nginx-controller-6bf7bc7f94-kchfv --namespace ingress-nginx
+ 1690  kubectl exec -it pods ingress-nginx-controller-6bf7bc7f94-kchfv --namespace ingress-nginx
+ 1691  kubectl exec --help
+ 1692  kubectl exec -it POD ingress-nginx-controller-6bf7bc7f94-kchfv /bin/sh
+ 1693  kubectl exec -it pod  ingress-nginx-controller-6bf7bc7f94-kchfv /bin/sh
+ 1694  kubectl exec -it  ingress-nginx-controller-6bf7bc7f94-kchfv /bin/sh
+ 1695  kubectl exec -it  ingress-nginx-controller-6bf7bc7f94-kchfv --namespace ingress-nginx /bin/sh
+ 1696  ls
+ 1697  cd testk8s/
+ 1698  ls
+ 1699  kubectl apply -f . --namespace ingress-nginx
+ 1700  kubectl get pods --namespace ingress-nginx
+ 1701  cat ingress.yml 
+ 1702  ls
+ 1703  kubectl delete -f . --namespace ingress-nginx
+ 1704  kubectl get service --namespace ingress-nginx
+ 1705  cd ..
+ 1706  cd k8s/
+ 1707  ls
+ 1708  kubectl apply -f . --namespace ingress-nginx
+ 1709  vi ingress.yaml 
+ 1710  kubectl delete -f . --namespace ingress-nginx
+ 1711  kubectl apply -f . --namespace ingress-nginx
+ 1712  kubectl get service --namespace ingress-nginx
+ 1713  cd .. 
+ 1714  cd frontend_dir/
+ 1715  ls
+ 1716  cd ..
+ 1717  cd k8s/
+ 1718  vi ingress.yaml 
+ 1719  kubectl delete -f . --namespace ingress-nginx
+ 1720  kubectl apply -f . --namespace ingress-nginx
+ 1721  kubectl get service --namespace ingress-nginx
+ 1722  kubectl exec ingress-nginx-controller-admission curl http://front-svc/signin
+ 1723  kubectl get pods  --namespace ingress-nginx
+ 1724  kubectl exec ingress-nginx-controller-6bf7bc7f94-kchfv --namespace ingress-nginx  curl http://front-svc/signin
+ 1725  kubectl exec ingress-nginx-controller-6bf7bc7f94-kchfv --namespace ingress-nginx  curl http://20.207.84.99//signin
+ 1726  cd ..
+ 1727  ls
+ 1728  cd k8s/
+ 1729  vi ingress.yaml 
+ 1730  kubectl delete -f . --namespace ingress-nginx
+ 1731  kubectl apply -f . --namespace ingress-nginx
+ 1732  kubectl get pods  --namespace ingress-nginx
+ 1733  vi ingress.yaml 
+ 1734  kubectl delete -f . --namespace ingress-nginx
+ 1735  kubectl apply -f . --namespace ingress-nginx
+ 1736  vi ingress.yaml 
+ 1737  kubectl delete -f . --namespace ingress-nginx
+ 1738  kubectl apply -f . --namespace ingress-nginx
+ 1739  kubectl get services  --namespace ingress-nginx
+ 1740  cd ..
+ 1741  vi frontend_dir/
+ 1742  xs  frontend_dir/
+ 1743  cd  frontend_dir/
+ 1744  ls
+ 1745  vi package
+ 1746  vi package.json 
+ 1747  ls
+ 1748  vi ..
+ 1749  xcd ..
+ 1750  cd ..
+ 1751  ls
+ 1752  cd k8s/
+ 1753  ls
+ 1754  vi ingress.yaml 
+ 1755  kubectl delete -f . --namespace ingress-nginx
+ 1756  kubectl apply -f . --namespace ingress-nginx
+ 1757  kubectl get service --namespace ingress-nginx
+ 1758  vi ingress.yaml 
+ 1759  kubectl get pods --namespace ingress-nginx
+ 1760  kubectl exec front-deployment-64c97b88f7-njdk5 --namespace ingress-nginx curl http://back-svc:3001/api/v1/users/login 
+ 1761  kubectl exec front-deployment-64c97b88f7-njdk5 --namespace ingress-nginx wget  http://back-svc:3001/api/v1/users/login
+ 1762  kubectl exec front-deployment-64c97b88f7-njdk5 --namespace ingress-nginx wget  http://back-svc:3001/api/v1/users
+ 1763  ls
+ 1764  kubectl log front-deployment-64c97b88f7-njdk5  --namespace ingress-nginx
+ 1765  kubectl logs front-deployment-64c97b88f7-njdk5  --namespace ingress-nginx
+ 1766  kubectl logs -f front-deployment-64c97b88f7-njdk5  --namespace ingress-nginx
+ 1767  kubectl get pods --namespace ingress-nginx
+ 1768  kubectl logs -f back-deployment-79796b667-smgdj  --namespace ingress-nginx
+ 1769  kubectl delete -f . --namespace ingress-nginx
+ 1770  kubectl apply -f . --namespace ingress-nginx
+ 1771  vi ingress.yaml 
+ 1772  kubectl delete -f . --namespace ingress-nginx
+ 1773  kubectl apply -f . --namespace ingress-nginx
+ 1774  curl http://20.207.84.99:3001/api/v1/users
+ 1775  vi ingress.yaml 
+ 1776  vi back-service.yml 
+ 1777  vi ingress.yaml 
+ 1778  cd ..
+ 1779  cd frontend_dir/
+ 1780  ls
+ 1781  cd src/
+ 1782  ls
+ 1783  vi App.js 
+ 1784  cd ..
+ 1785  cd k8s/
+ 1786  ls
+ 1787  cd ..
+ 1788  ls
+ 1789  cd frontend_dir/
+ 1790  ls
+ 1791  cd ..
+ 1792  cd k8s/
+ 1793  ls
+ 1794  cd ..
+ 1795  cd frontend_dir/
+ 1796  history |grep docker 
+ 1797  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1798  docker  push rkudache31/weather_front
+ 1799  ls
+ 1800  cd ../k8s/
+ 1801  ls
+ 1802  vi ingress.yaml 
+ 1803  ls
+ 1804  vi back-service.yml 
+ 1805  kubectl delete -f . --namespace ingress-nginx
+ 1806  kubectl apply -f . --namespace ingress-nginx
+ 1807  kubectl delete -f . --namespace ingress-nginx
+ 1808  kubectl apply -f . --namespace ingress-nginx
+ 1809  curl http://20.207.84.99/home/home/signin
+ 1810  ls
+ 1811  cd ..
+ 1812  ls
+ 1813  cd frontend_dir/
+ 1814  ls
+ 1815  cd src/
+ 1816  ls
+ 1817  cat App.js 
+ 1818  cat ../../k8s/ingress.yaml 
+ 1819  dc ..
+ 1820  cd ..
+ 1821  cd k8s/
+ 1822  ls
+ 1823  vi ingress.yaml 
+ 1824  kubectl delete -f . --namespace ingress-nginx
+ 1825  kubectl apply -f . --namespace ingress-nginx
+ 1826  vi ingress.yaml 
+ 1827  kubectl delete -f . --namespace ingress-nginx
+ 1828  kubectl apply -f . --namespace ingress-nginx
+ 1829  cd ..
+ 1830  ls
+ 1831  cd weather_station_app/
+ 1832  ls
+ 1833  cd frontend_dir/
+ 1834  ls
+ 1835  cd src/
+ 1836  ls
+ 1837  cat App.js 
+ 1838  kubectl delete -f . --namespace ingress-nginx
+ 1839  cd ..
+ 1840  cd k8s/
+ 1841  kubectl delete -f . --namespace ingress-nginx
+ 1842  kubectl apply -f . --namespace ingress-nginx
+ 1843  kubectl delete -f . --namespace ingress-nginx
+ 1844  kubectl apply -f . --namespace ingress-nginx
+ 1845  kubectl delete -f . --namespace ingress-nginx
+ 1846  kubectl apply -f . --namespace ingress-nginx
+ 1847  kubectl delete -f . --namespace ingress-nginx
+ 1848  kubectl apply -f . --namespace ingress-nginx
+ 1849  cd ..
+ 1850  cd frontend_dir/
+ 1851  ls
+ 1852  cd src/
+ 1853  ls
+ 1854  vi index.
+ 1855  cd ..
+ 1856  ls
+ 1857  cd public/
+ 1858  vi index.html 
+ 1859  cd ..
+ 1860  history |grep delete
+ 1861  kubectl  delete -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1862  kubectl  apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.3.0/deploy/static/provider/cloud/deploy.yaml
+ 1863  cd k8s/
+ 1864  kubectl delete -f . --namespace ingress-nginx
+ 1865  kubectl apply -f . --namespace ingress-nginx
+ 1866  kubectl get services --namespace ingress-nginx
+ 1867  cd wather_report_dir/
+ 1868  cd weather_station_app/
+ 1869  kubectl exec front-deployment-64c97b88f7-njdk5 --namespace ingress-nginx wget  http://back-svc:3001/api/v1/users/login
+ 1870  kubectl exec front-deployment-64c97b88f7-njdk5 --namespace ingress-nginx wget  http://back-svc:3001/api/v1/users
+ 1871  cd frontend_dir/
+ 1872  ls
+ 1873  cd src/
+ 1874  ls
+ 1875  cd components/
+ 1876  ls
+ 1877  cd Pages/
+ 1878  l;s
+ 1879  cd ..
+ 1880  cd Pages/
+ 1881  ls
+ 1882  ci Login.js 
+ 1883  vi Login.js 
+ 1884  cd ..
+ 1885  kubectl exec front-deployment-64c97b88f7-njdk5 --namespace ingress-nginx wget  http://back-svc:3001/api/v1/users/login
+ 1886  vi ..
+ 1887  cd ..
+ 1888  cd k8s/
+ 1889  ls
+ 1890  vi ingress.yaml 
+ 1891  cat ingress.yaml 
+ 1892  vi ingress.yaml 
+ 1893  cat  ingress.yaml 
+ 1894  vi ingress.yaml 
+ 1895  cat ingress.yaml 
+ 1896  vi ingress.yaml 
+ 1897  ls
+ 1898  cd wather_report_dir/
+ 1899  ls
+ 1900  cd weather_station_app/
+ 1901  ls
+ 1902  cd k8s/
+ 1903  ls
+ 1904  bi ingress.yaml 
+ 1905  vi ingress.yaml 
+ 1906  ls
+ 1907  vi back-service.yml
+ 1908  history | grep delete
+ 1909  kubectl delete -f . --namespace ingress-nginx
+ 1910  kubectl apply -f . --namespace ingress-nginx
+ 1911  kubectl get services --namespace ingress-nginx
+ 1912  cat ingress.yaml 
+ 1913  vi ingress.yaml 
+ 1914  kubectl delete -f . --namespace ingress-nginx
+ 1915  kubectl apply -f . --namespace ingress-nginx
+ 1916  cd ..
+ 1917  ls
+ 1918  cd frontend_dir/
+ 1919  ls
+ 1920  cd src/
+ 1921  ls
+ 1922  cd components/Pages/
+ 1923  ls
+ 1924  vi cd ..
+ 1925  lsvi Login.js 
+ 1926  vi Login.js 
+ 1927  history |grep build
+ 1928  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1929  cd ..
+ 1930  docker  build -f Dockerfile.dev  -t rkudache31/weather_front .
+ 1931  docker  push  rkudache31/weather_front .
+ 1932  history |grep push
+ 1933  docker  push rkudache31/weather_front
+ 1934  cd ..
+ 1935  ls
+ 1936  cd k8s/
+ 1937  kubectl delete -f . --namespace ingress-nginx
+ 1938  kubectl apply -f . --namespace ingress-nginx
+ 1939  cd ..
+ 1940  history >> impcmd

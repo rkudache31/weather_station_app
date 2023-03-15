@@ -31,7 +31,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route  path="/signin" element={<Login />} />
+        <Route  path="/home/signin" element={<Login />} />
         <Route element={<RoleAccess roles={["admin"]} />}>
           <Route
             path={APP_ROUTES.ADMINDASHBOARD}
