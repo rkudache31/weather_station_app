@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: front-deployment
+spec:
+  replicas: {{ .Values.replicasnum }}
+  selector:
+   matchLabels:
+    component: front
+  template:
+   metadata:
+     labels:
+      component: front
+   spec:
+    containers:
+       - name: frontapp
+         image: {{ .Values.imagename }}
+         ports:
+         - containerPort: {{ .Values.tport }}
+         env:
+           - name: BACK_HOST
+             value: {{ .Values.backsvc }}
+           - name: BACK_PORT
+             value: '3001'

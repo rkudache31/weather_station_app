@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata: 
+   name: front-svc
+   labels:
+        app: front-svc
+spec:
+   type: ClusterIP
+   ports:
+      - port: {{ .Values.sport }}
+        targetPort: {{ .Values.tport }}
+   selector: 
+         component: front 

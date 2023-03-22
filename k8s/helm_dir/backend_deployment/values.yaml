@@ -1,0 +1,3 @@
+tport: 3001
+imagename: rkudache31/weather_backend
+replicasnum: 1

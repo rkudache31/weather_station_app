@@ -1,0 +1,4 @@
+replicasnum: 1
+imagename: rkudache31/weather_front
+tport: 3000
+backsvc: 20.207.87.250

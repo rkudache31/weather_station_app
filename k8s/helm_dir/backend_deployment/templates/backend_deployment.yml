@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: back-deployment
+spec:
+  replicas: {{ .Values.replicasnum }}
+  selector:
+   matchLabels:
+    component: back
+  template:
+   metadata:
+     labels:
+      component: back
+   spec:
+    containers:
+       - name: backapp
+         image: {{ .Values.imagename }} 
+         ports:
+         - containerPort: {{ .Values.tport }}
